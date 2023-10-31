@@ -17,26 +17,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rQ5-5Q-M88" userLabel="FirstView">
-                                <rect key="frame" x="16" y="79.000000000000028" width="398" height="411.66666666666674"/>
+                                <rect key="frame" x="16" y="79.000000000000028" width="398" height="391.66666666666674"/>
                                 <color key="backgroundColor" systemColor="systemBrownColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZIS-MC-o9S" userLabel="SecondView">
-                                <rect key="frame" x="16" y="506.66666666666674" width="398" height="411.33333333333326"/>
+                                <rect key="frame" x="16" y="486.66666666666674" width="398" height="391.33333333333326"/>
                                 <color key="backgroundColor" systemColor="systemPurpleColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.094210287893140995" green="0.16650449999632502" blue="0.32347909199822811" alpha="0.95851114493649026" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="rQ5-5Q-M88" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="0xf-nS-zms"/>
-                            <constraint firstItem="ZIS-MC-o9S" firstAttribute="height" secondItem="rQ5-5Q-M88" secondAttribute="height" id="ELh-fc-n7b"/>
-                            <constraint firstItem="ZIS-MC-o9S" firstAttribute="top" secondItem="rQ5-5Q-M88" secondAttribute="bottom" constant="16" id="Uvl-mk-0eU"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZIS-MC-o9S" secondAttribute="trailing" constant="16" id="W7Q-kO-BjG"/>
-                            <constraint firstItem="ZIS-MC-o9S" firstAttribute="width" secondItem="rQ5-5Q-M88" secondAttribute="width" id="X98-Qf-51B"/>
-                            <constraint firstItem="rQ5-5Q-M88" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="kiQ-BK-vcT"/>
-                            <constraint firstItem="ZIS-MC-o9S" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="qWj-7j-lRl"/>
-                            <constraint firstItem="ZIS-MC-o9S" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="20" id="rfi-rP-Ekh"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rQ5-5Q-M88" secondAttribute="trailing" constant="16" id="sVa-Uj-YJV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rQ5-5Q-M88" secondAttribute="trailing" constant="16" id="DTM-Zz-qVb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZIS-MC-o9S" secondAttribute="bottom" constant="20" id="GZ4-xO-3qt"/>
+                            <constraint firstItem="ZIS-MC-o9S" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="LJX-KV-9pG"/>
+                            <constraint firstItem="ZIS-MC-o9S" firstAttribute="height" secondItem="rQ5-5Q-M88" secondAttribute="height" id="NVw-jf-4ap"/>
+                            <constraint firstItem="rQ5-5Q-M88" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="SMJ-wp-hnt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZIS-MC-o9S" secondAttribute="trailing" constant="16" id="agx-Ga-WHH"/>
+                            <constraint firstItem="rQ5-5Q-M88" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="g7i-SJ-fXV"/>
+                            <constraint firstItem="ZIS-MC-o9S" firstAttribute="top" secondItem="rQ5-5Q-M88" secondAttribute="bottom" constant="16" id="uW1-oH-9lx"/>
                         </constraints>
                     </view>
                 </viewController>
